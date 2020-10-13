@@ -66,8 +66,7 @@ We came to the conclusion that there were days when you didn't know what to eat 
 
 ### 2.2 Use Case Diagram
 
-(tbt)
-![OUCD](./UseCaseDiagramCP.png)
+<iframe frameborder="0" style="width:100%;height:833px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=UseCaseDiagramm#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1U7iv_OIzAtDlrjTv6nN2fArLmow8pbDm%26export%3Ddownload"></iframe>
 
 - Green: Planned till end of december
 - Yellow: Planned till end of june
@@ -170,6 +169,3 @@ The Team Members are:
 - Rico Peter Rauschkolb
 - Konrad Schewe
 - Jan Pfenning
-
-<!-- Picture-Link definitions: -->
-[OUCD]:https://google.com "Overall Use Case Diagram"
