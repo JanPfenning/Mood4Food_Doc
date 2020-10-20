@@ -30,7 +30,7 @@
 ## 1. Introduction
 
 ### 1.1 Purpose
-This Software Requirements Specification (SRS) describes all specifications for the application "Common Playground". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
+This Software Requirements Specification (SRS) describes all specifications for the application "Mood4Food". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
 
 
 ### 1.2 Scope
@@ -164,7 +164,7 @@ We do not take responsibilty for any incorrect data or errors in the application
 The development will follow the common clean code standards and naming conventions.
 
 ## 4. Supporting Information
-For any further information you can contact the Common Playground Team or check our [Common Playground Blog](http://commonplayground.wordpress.com). 
+For any further information you can contact the Mood4Food Team or [check our Blog](http://md4fd.wordpress.com). 
 The Team Members are:
 - Rico Peter Rauschkolb
 - Konrad Schewe
