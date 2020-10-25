@@ -70,7 +70,7 @@ We came to the conclusion that there were days when you didn't know what to eat 
 
 <p style="font-size:0.8rem">
 Use the following link to see the diagramm when the iframe doesn't work:
-https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=UseCaseDiagramm#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1U7iv_OIzAtDlrjTv6nN2fArLmow8pbDm%26export%3Ddownload%22%3E </p>
+<a>https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=UseCaseDiagramm#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1U7iv_OIzAtDlrjTv6nN2fArLmow8pbDm%26export%3Ddownload%22%3E</a></p>
 
 - Green: Planned till end of december
 - Yellow: Planned till end of june
