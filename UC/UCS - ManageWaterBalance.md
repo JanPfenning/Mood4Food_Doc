@@ -18,7 +18,11 @@ tbt since there not implemented yet, see mockups until further infos are given h
 ## 2.1 Basic Flow
 Here is the activity diagram for adding water to the your waterbalance.
 
-//TODO
+<iframe frameborder="0" style="width:100%;height:585px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1#G18vb7-NcjfuWgXu59OOCkcDJ35DSHZB61"></iframe>
+<p style="font-size:0.8rem">
+Use the following link to see the diagramm when the iframe doesn't work:
+<a>
+https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1#G18vb7-NcjfuWgXu59OOCkcDJ35DSHZB61</a></p>
 
 ## 2.2 Alternative Flows
 n/a

@@ -20,7 +20,11 @@ tbt since there not implemented yet, see mockups until further infos are given h
 ## 2.1 Basic Flow (Creation)
 Here is the activity diagram for adding a new recipe.
 
-//TODO
+<iframe frameborder="0" style="width:100%;height:782px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1#G1RykMSZnDcLyHKotuat7EDu24Yi5hXvFH"></iframe>
+
+<p style="font-size:0.8rem">
+Use the following link to see the diagramm when the iframe doesn't work:
+<a>https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1#G1RykMSZnDcLyHKotuat7EDu24Yi5hXvFH</a></p>
 
 ## 2.2 Alternative Flows
 A recipe may be send to a API instead. (may be implemented in the future)
