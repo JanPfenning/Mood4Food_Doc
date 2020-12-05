@@ -80,7 +80,9 @@ Every catergory (like recipe, water, ...) gets it own package which then contain
 ##	<span id="Architecturally-Significant-Design-Packages">Architecturally Significant Design Packages</span>
 The abstract version of the MVC-Diagram can be found <a href="#toplevelmvc">here</a>
 
-!!TODO CLASS DIAGRAMM WITH MARKED SECTIONS OF MODEL VIEW CONTROLLER
+<img style="width:100%;height:585px;" src="./embedded-files/classdiagramm_mvc_marked.png"></img>
+<p>The reason why its light-background is that the background of the IDE is snipped out and thrown away! Do not think we use lightmode! For gods sake.</p>
+
 #	Process View 
 (n/a)
 #	Deployment View 
