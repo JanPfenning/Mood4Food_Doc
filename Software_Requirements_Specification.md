@@ -74,6 +74,7 @@ Use the following link to see the diagramm when the iframe doesn't work:</br>
 
 - Green: Planned till end of december
 - Yellow: Planned till end of june
+- Purple: Optional
 
 ### 2.3 Technology Stack
 The technology we use is:
