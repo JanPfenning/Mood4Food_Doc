@@ -119,7 +119,9 @@ Until December we plan to implement:
 	- Feature File: https://github.com/JanPfenning/Mood4Food/blob/master/app/src/androidTest/assets/features/setFavoriteIngredient.feature
 
 Until June, we want to implement:
-- 3.1.6 (tbt)
+- 3.1.6 Read Cloud Recipes Use Case
+- 3.1.7 Recommendations Use Case
+- 3.1.8 Favorize Use Case
 
 ### 3.2 Usability
 We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app.
@@ -138,13 +140,22 @@ Since we do not think of implementing a Serversided connection the Application s
 ### 3.4 Perfomance
 
 #### 3.4.1 Capacity
-(tbt)
+~ 10MB
+App needs more capacity when entries are created in the local phone storage.
 
 #### 3.4.2 Storage 
-(tbt)
+While interacting with the User Interface with actions like...
+- creating, updating, deleting recipes
+- adding water to the waterbalance
+- changing settings
+- adding favorite recipes
+... there are created entries in the local phone storage.
+
+An API is used to get a big list of recipes which the user can read from the app.
 
 #### 3.4.3 App perfomance / Response time
-(tbt)
+Depends on the device performance.
+Because we have no own backend, there are no response issues.
 
 ### 3.5 Supportability
 
@@ -155,10 +166,18 @@ We are going to write the code by using all of the most common clean code standa
 The application will have a high test coverage and all important functionalities and edge cases should be tested. Further mistakes in the implementation will be discovered instantly and it will be easy to locate the error.
 
 ### 3.6 Design Constraints
-(tbt)
+- The Design is following the constraints of Material Design: https://material.io/design/introduction#principles
+- Icons used from Google Material Icons
+- Keeping everything in Dark Mode
+- Color Theming:
+	- colorPrimary: #333D4A
+	- colorPrimaryDark #222731
+    	- colorAccent: #C6A334
+    	- colorSoft: #EABE7C
+    	- colorHighlight: #BA823F
 
 ### 3.7 On-line User Documentation and Help System Requirements
-(tbt)
+(n/a)
 
 ### 3.8 Purchased Components
 Currently no purchased components are integrated. As soon as this changes we will list them here.
@@ -167,8 +186,14 @@ Currently no purchased components are integrated. As soon as this changes we wil
 
 #### 3.9.1 User Interfaces
 The User interfaces that will be implented are:
-- Receipe Overview - 
-- ...
+- Home Page
+- Recipe Overview
+- Recipe Detail (Read & Edit Mode)
+- Waterbalance Page
+- Settings Overview
+- Need Calculation Page
+- Goals Page
+- Favorite Ingredients Page
 
 #### 3.9.2 Hardware Interfaces
 (n/a)
