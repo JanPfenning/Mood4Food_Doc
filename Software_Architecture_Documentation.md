@@ -68,7 +68,7 @@ We are not using a tool to implement the MVC-architecture. Since we want to lear
 </br>
 <p style="font-size:0.8rem">
 Use the following link to see the diagramm when the iframe doesn't work:</br>
-<a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=UC#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2FUC">Overall Use-Case Diagram</a></p>
+<a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=UC#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2FUC.drawio">Overall Use-Case Diagram</a></p>
 
 ##	Use-Case Realizations
 In the water-section of the application, the user is able to add water to his todays waterbalance, which is part of the waterbalance-usecase. On adding water to the balance the view notifies the controller that an event has been triggered. The controller upadtes the model with the given data (how much water has been added) and the Model notifies the View that there is new data to be loaded, which is then loaded from the Model by the View itself.
