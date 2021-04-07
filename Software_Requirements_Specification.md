@@ -84,6 +84,7 @@ Frontend:
 
 IDE:
 -Android Studio (IntelliJ)
+-Visual Studio Code
 
 Project Management:
 -YouTrack
@@ -92,6 +93,12 @@ Project Management:
 Testing:
 -JUnit
 -Espresso (Gherkin)
+
+Backend:
+-PHP
+
+Database:
+-MySQL
 
 ## 3. Specific Requirements
 
@@ -136,7 +143,8 @@ We want to implement an app with familiar designs and functions. This way the us
 ### 3.3 Reliability
 
 #### 3.3.1 Availability
-Since we do not think of implementing a Serversided connection the Application should run a full 100% of the time! 
+Since we do not think of implementing a Serversided connection the Application should run a full 100% of the time!
+Update: We care about an own backend API. The Server is running on side of Strato - so Strato is responsible for the availability.
 
 ### 3.4 Perfomance
 
@@ -156,7 +164,8 @@ An API is used to get a big list of recipes which the user can read from the app
 
 #### 3.4.3 App perfomance / Response time
 Depends on the device performance.
-Because we have no own backend, there are no response issues.
+
+The Backend API always returns a maximum of 100 datasets. To get more, the "limit" and the "offset" parameter can be set.
 
 ### 3.5 Supportability
 
