@@ -37,7 +37,7 @@ Request:
     - limit (int, default: 50): Specifies the maximum number of datasets returned.
     - offset (int, default: 0): Specifies the number of datasets skipped for return.
     - search (string): Specifies a string which must be contained in the titles of all returned recipes.
-    - ingredients (comma separated string list): Specifies which ingredients must be included in the recipes returned. Recipes including multiple of the ingredients specified are preferred.
+    - ingredients (comma separated string list): Specifies which ingredients must be included in the recipes returned. The ingredients are linked with an 'or'.
 - Headers: -
 - Body: -
 
