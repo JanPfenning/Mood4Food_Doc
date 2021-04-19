@@ -3,13 +3,10 @@
 # 1. Add Recipe
 
 ## 1.1 Brief Description
-This use case allows users to add own Recipes.
-A Recipe holds information about ingrediends, materials and workflow.
+This Usecase allows the user to mark recipes as favorites and find them more quickly.
 
 ## 1.2 Mockup
-### Adding recipe
-https://konrad400294.invisionapp.com/public/prototype/skghts6bg00as9401o6extwkc
-
+n/a
 
 ## 1.3 Screenshot (Creation)
 ### 

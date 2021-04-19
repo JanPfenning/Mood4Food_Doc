@@ -7,8 +7,14 @@ This use case allows users to add own Recipes.
 A Recipe holds information about ingrediends, materials and workflow.
 
 ## 1.2 Mockup
-### Adding recipe
+### Create recipe
 https://konrad400294.invisionapp.com/public/prototype/skghts6bg00as9401o6extwkc
+### Read recipe
+n/a
+### Update recipe
+n/a
+### Delete recipe
+n/a
 
 
 ## 1.3 Screenshot (Creation)

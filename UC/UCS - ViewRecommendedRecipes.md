@@ -3,8 +3,7 @@
 # 1. Add Recipe
 
 ## 1.1 Brief Description
-This use case allows users to add own Recipes.
-A Recipe holds information about ingrediends, materials and workflow.
+Find Recipes matching yur favorite Ingredients
 
 ## 1.2 Mockup
 n/a
