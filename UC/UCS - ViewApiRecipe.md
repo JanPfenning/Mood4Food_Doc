@@ -1,13 +1,15 @@
-# Use-Case Specification: ManageSettings
+# Use-Case Specification: Add Recipe
 
-# 1. ManageSettings 
+# 1. Add Recipe
 
 ## 1.1 Brief Description
-This use case allows users manage Settings concerning his health.
-Bodyvariables like height or mass and further variables describing goals the user wants to reach.
+This use case allows users to add own Recipes.
+A Recipe holds information about ingrediends, materials and workflow.
 
 ## 1.2 Mockup
-n/a
+### Adding recipe
+https://konrad400294.invisionapp.com/public/prototype/skghts6bg00as9401o6extwkc
+
 
 ## 1.3 Screenshot (Creation)
 ### 
