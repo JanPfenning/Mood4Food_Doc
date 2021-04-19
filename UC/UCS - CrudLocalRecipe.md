@@ -1,9 +1,9 @@
-# Use-Case Specification: Add Recipe
+# Use-Case Specification: CRUD Recipe
 
-# 1. Add Recipe
+# 1. CRUD Recipe
 
 ## 1.1 Brief Description
-This use case allows users to add own Recipes.
+This use case allows users to create/read/update/delete own Recipes.
 A Recipe holds information about ingrediends, materials and workflow.
 
 ## 1.2 Mockup
@@ -33,7 +33,7 @@ Use the following link to see the diagramm when the iframe doesn't work:</br>
 <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=createrecipe.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2Fcreaterecipe.drawio">Creating a Recipe Flow</a></p>
 
 ## 2.2 Alternative Flows
-A recipe may be send to a API instead. (may be implemented in the future)
+User is free in number of ingredients, materials and steps, as he is in whether a picture for the meal is added or not. 
 
 # 3. Special Requirements
 n/a
@@ -46,7 +46,7 @@ The main preconditions for this use case are:
 # 5. Postconditions
 
 ### 5.1 Save changes / Sync with server
-Either the recipe is stored in the users local data or (later) is send to the API
+The recipe is stored in the users local data
 
 # 6. Function Points
 tbd

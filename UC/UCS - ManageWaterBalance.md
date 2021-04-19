@@ -9,7 +9,6 @@ This use case allows users to manage the waterbalance tracked by the application
 https://konrad400294.invisionapp.com/public/prototype/skghuj5co00lz1301ofl2uuaf
 
 ## 1.3 Screenshot
-### 
 tbt since there not implemented yet, see mockups until further infos are given here.
 
 # 2. Flow of Events

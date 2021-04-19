@@ -1,31 +1,23 @@
-# Use-Case Specification: ManageSettings
+# Use-Case Specification: Rate Ingredients
 
-# 1. ManageSettings 
+# 1. Rate Ingredients 
 
 ## 1.1 Brief Description
-This use case allows users manage Settings concerning his health.
-Bodyvariables like height or mass and further variables describing goals the user wants to reach.
+This use case allows users to like or dislike ingredients so they will not appear in recommended searches
 
 ## 1.2 Mockup
 n/a
 
 ## 1.3 Screenshot (Creation)
-### 
 tbt since there not implemented yet, see mockups until further infos are given here.
 
 # 2. Flow of Events
 
 ## 2.1 Basic Flow (Creation)
-Here is the activity diagram for adding a new recipe.
-
-<iframe frameborder="0" style="width:100%;height:782px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=createrecipe.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2Fcreaterecipe.drawio"></iframe>
-</br>
-<p style="font-size:0.8rem">
-Use the following link to see the diagramm when the iframe doesn't work:</br>
-<a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=createrecipe.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2Fcreaterecipe.drawio">Creating a Recipe Flow</a></p>
+Here is the activity diagram for rating an ingredient.
 
 ## 2.2 Alternative Flows
-A recipe may be send to a API instead. (may be implemented in the future)
+n/a
 
 # 3. Special Requirements
 n/a
@@ -33,12 +25,12 @@ n/a
 # 4. Preconditions
 The main preconditions for this use case are:
 
- 1. The user has started the app and has navigated to "Recipe" section.
+ 1. The user has started the app and has navigated to "Settings" section.
 
 # 5. Postconditions
 
 ### 5.1 Save changes / Sync with server
-Either the recipe is stored in the users local data or (later) is send to the API
+Ingredient rating is stored in the local files (no access from outside the phone)
 
 # 6. Function Points
 tbd
