@@ -33,7 +33,7 @@ Use the following link to see the diagramm when the iframe doesn't work:</br>
 <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=createrecipe.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2Fcreaterecipe.drawio">Creating a Recipe Flow</a></p>
 
 ## 2.2 Alternative Flows
-User is free in number of ingredients, materials and steps, as he is in whether a picture for the meal is added or not. 
+User is free in number of ingredients, materials and steps, as he is in whether a picture for the meal is added or not.
 
 # 3. Special Requirements
 n/a
