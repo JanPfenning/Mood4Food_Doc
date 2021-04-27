@@ -35,6 +35,14 @@ n/a
 
 # 6. Function Points
 tbd
+Get Health Demand	| RET	| DET | FTR | Resulting Complexity | Count || RET || DET || FTR
+External Inuts	    ||0     ||	1   || 0	||low	|| 1	||	- || Navigation	|| -
+External Outputs	|| 0	|| 4	|| 1	|| low	|| 1	||-||	Calories, Carbohydrates, Proteins, Water ||Settings
+External Inquiries	0	0	0	low	0			
+Internal Logical Files	0	0	1	low	1			Settings
+External Interface Files	0	0	0	low	0			
+Function Points	13,02							
+
 <!--
 To calculate function points, we used the tool on [http://groups.umd.umich.edu](http://groups.umd.umich.edu/cis/course.des/cis375/projects/fp99/main.html).
 

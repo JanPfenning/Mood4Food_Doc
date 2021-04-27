@@ -39,8 +39,11 @@ The main preconditions for this use case are:
 The current waterbalance for that very day is shown until midnight. The results for each day are stored and can be reviewed or analized. 
 
 # 6. Function Points
-tbd
-<!--
-To calculate function points, we used the tool on [http://groups.umd.umich.edu](http://groups.umd.umich.edu/cis/course.des/cis375/projects/fp99/main.html).
-
-Functionpoints and implementationtime needs to be determined -->
+| Manage Waterbalance      | RET   | DET | FTR | Resulting Complexity | Count | RET          | DET                          | FTR   |
+|--------------------------|-------|-----|-----|----------------------|-------|--------------|------------------------------|-------|
+| External Inuts           | 0     | 3   | 0   | low                  | 1     | -            | Add Water, Amount Slider, OK | -     |
+| External Outputs         | 0     | 1   | 0   | low                  | 1     | -            | New Water Indicator          | -     |
+| External Inquiries       | 0     | 0   | 3   | low                  | 1     | -            | -                            | -     |
+| Internal Logical Files   | 1     | 1   | 1   | low                  | 1     | Waterhistory | Current Water                | Water |
+| External Interface Files | 0     | 0   | 0   | low                  | 0     | -            | -                            | -     |
+| Function Points          | 15,81 |

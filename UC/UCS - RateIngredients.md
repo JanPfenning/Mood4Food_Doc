@@ -33,8 +33,11 @@ The main preconditions for this use case are:
 Ingredient rating is stored in the local files (no access from outside the phone)
 
 # 6. Function Points
-tbd
-<!--
-To calculate function points, we used the tool on [http://groups.umd.umich.edu](http://groups.umd.umich.edu/cis/course.des/cis375/projects/fp99/main.html).
-
-Functionpoints and implementationtime needs to be determined -->
+| Rate Ingredients         | RET   | DET | FTR | Resulting Complexity | Count | RET | DET          | FTR      |
+|--------------------------|-------|-----|-----|----------------------|-------|-----|--------------|----------|
+| External Inuts           | 0     | 1   | 1   | low                  | 2     |     | Like/Dislike | Settings |
+| External Outputs         | 0     | 0   | 0   | low                  | 0     |     |              |          |
+| External Inquiries       | 0     | 1   | 1   | low                  | 1     |     | Input        | Settings |
+| Internal Logical Files   | 0     | 0   | 1   | low                  | 1     |     |              | Settings |
+| External Interface Files | 0     | 0   | 0   | low                  |       |     |              |          |
+| Function Points          | 14,88 |

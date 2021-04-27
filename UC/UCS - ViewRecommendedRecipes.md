@@ -33,8 +33,11 @@ The main preconditions for this use case are:
 n/a
 
 # 6. Function Points
-tbd
-<!--
-To calculate function points, we used the tool on [http://groups.umd.umich.edu](http://groups.umd.umich.edu/cis/course.des/cis375/projects/fp99/main.html).
-
-Functionpoints and implementationtime needs to be determined -->
+| View Recommended Recipes | RET | DET | FTR | Resulting Complexity | Count | RET | DET                | FTR    |
+|--------------------------|-----|-----|-----|----------------------|-------|-----|--------------------|--------|
+| External Inuts           | 0   | 1   | 0   | low                  | 1     |     | Recipe Detail Card |        |
+| External Outputs         | 0   | 1   | 0   | low                  | 1     |     | Recipes            |        |
+| External Inquiries       | 0   | 1   | 1   | low                  | 1     |     | Refresh Button     | Recipe |
+| Internal Logical Files   | 0   | 0   | 0   | low                  | 0     |     |                    |        |
+| External Interface Files | 0   | 0   | 0   | low                  | 0     |     |                    |        |
+| Function Points          | 9,3 |

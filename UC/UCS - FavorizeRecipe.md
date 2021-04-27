@@ -37,8 +37,11 @@ A Recipe must be existing
 The recipe id is saved to the local favorite recipe file
 
 # 6. Function Points
-tbd
-<!--
-To calculate function points, we used the tool on [http://groups.umd.umich.edu](http://groups.umd.umich.edu/cis/course.des/cis375/projects/fp99/main.html).
-
-Functionpoints and implementationtime needs to be determined -->
+| Favorize Recipes         | RET   | DET | FTR | Resulting Complexity | Count | RET | DET                 | FTR    |
+|--------------------------|-------|-----|-----|----------------------|-------|-----|---------------------|--------|
+| External Inuts           | 0     | 1   | 1   | low                  | 1     |     | Favorite Icon press | Recipe |
+| External Outputs         | 0     | 1   | 0   | low                  | 1     |     | Favorite Icon       |        |
+| External Inquiries       | 0     | 0   | 0   | low                  | 0     |     |                     |        |
+| Internal Logical Files   | 0     | 0   | 1   | low                  | 1     |     |                     | Recipe |
+| External Interface Files | 0     | 0   | 0   | low                  | 0     |     |                     |        |
+| Function Points          | 13,02 |

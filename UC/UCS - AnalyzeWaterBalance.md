@@ -34,8 +34,11 @@ The main preconditions for this use case are:
 The past waterdata is presented as a graph
 
 # 6. Function Points
-tbd
-<!--
-To calculate function points, we used the tool on [http://groups.umd.umich.edu](http://groups.umd.umich.edu/cis/course.des/cis375/projects/fp99/main.html).
-
-Functionpoints and implementationtime needs to be determined -->
+| Analyze Water            | RET   | DET | FTR | Resulting Complexity | Count | RET | DET                 | FTR   |
+|--------------------------|-------|-----|-----|----------------------|-------|-----|---------------------|-------|
+| External Inuts           | 0     | 1   | 0   | low                  | 1     |     | Navigation          |       |
+| External Outputs         | 0     | 1   | 1   | low                  | 1     |     | Water history graph | Water |
+| External Inquiries       | 0     | 0   | 0   | low                  | 0     |     |                     |       |
+| Internal Logical Files   | 0     | 0   | 1   | low                  | 1     |     |                     | Water |
+| External Interface Files | 0     | 0   | 0   | low                  | 0     |     |                     |       |
+| Function Points          | 13,02 |

@@ -49,8 +49,11 @@ The main preconditions for this use case are:
 The recipe is stored in the users local data
 
 # 6. Function Points
-tbd
-<!--
-To calculate function points, we used the tool on [http://groups.umd.umich.edu](http://groups.umd.umich.edu/cis/course.des/cis375/projects/fp99/main.html).
-
-Functionpoints and implementationtime needs to be determined -->
+| CRUD Recipe                    | RET  | DET | FTR | Resulting Complexity | Count | RET                           | DET                                                                                                     | FTR    |
+|--------------------------------|------|-----|-----|----------------------|-------|-------------------------------|---------------------------------------------------------------------------------------------------------|--------|
+| External Inuts (EI)            | 3    | 9   | 1   | low                  | 3     | Ingredients, Materials, Steps | Name, Image, Ingredient Amount, Ingredient Name, Material, Step, Save, Cancel, Add Image, Delete Button | Recipe |
+| External Outputs (EO)          | 0    | 1   | 0   | low                  | 1     |                               | Confirmation message                                                                                    | -      |
+| External Inquiries (EQ)        | 0    | 0   | 0   | low                  | 0     |                               |                                                                                                         |        |
+| Internal Logical Files (ILF)   | 0    | 0   | 0   | low                  | 1     |                               |                                                                                                         | Recipe |
+| External Interface Files (EIF) | 0    | 0   | 0   | low                  | 0     |                               |                                                                                                         |        |
+| Function Points                | 18,6 |
