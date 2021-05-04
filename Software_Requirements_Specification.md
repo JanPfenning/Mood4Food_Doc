@@ -113,7 +113,7 @@ Until December we plan to implement:
 		- Read Recipe: https://github.com/JanPfenning/Mood4Food/blob/master/app/src/androidTest/assets/features/viewRecipe.feature
 		- Update Recipe: https://github.com/JanPfenning/Mood4Food/blob/master/app/src/androidTest/assets/features/editRecipe.feature
 - 3.1.2 Waterbalance Use case:
-	- Mockups: https://konrad400294.invisionapp.com/public/prototype/skghuj5co00lz1301ofl2uuaf/32f0279c
+	- Mockups: h.invisionapp.com/public/prototype/skghuj5co00lz1301ofl2uuaf/32f0279c
 	- Flow Diagram: https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Water_Management.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2FWater_Management.drawio
 	- Feature File: https://github.com/JanPfenning/Mood4Food/blob/master/app/src/androidTest/assets/features/checkwaterbalance.feature
 - 3.1.3 Edit your Goals Use Case:
