@@ -78,18 +78,19 @@ This Test Plan for Vaultionizer supports the following objectives:
 
 ### 1.2 Scope
 
-[Describe the levels of testing (for example, Unit, Integration, or System, and the types of testing (such as Functionality, Usability, Reliability, Performance, and Supportability) that will be addressed by this Test Plan. It is also important to provide a general indication of significant areas that will be excluded from scope, especially where the intended audience might otherwise reasonably assume the inclusion of those areas. 
-Note: Avoid placing detail here that you will repeat in sections 3, Target Test Items, and 4, Outline of Planned Tests.]
+The areas of tests that are considered in document are:
+* Unit-Tests (Functionality)
+* .feature-Files for Gherkin (UI)
+* API tests (Postman)
+We do not include Usertests or Stresstests. We decided to base the userinterface on the basic principe of UI design. This can be seen when comparing our Navigation bar to the one of Instagram.
+Stresstests are not really important because the Application is based on local storage for most of the functionality.
 
 ### 1.3 Intended Audience
 
-[Provide a brief description of the audience for whom you are writing the Test Plan. This helps readers of your document identify whether it is a document intended for their use, and helps prevent the document from being used inappropriately.
-Note: The document style and content often alters in relation to the intended audience.
-This section should only be about three to five paragraphs in length.]
+The Testplan document is written for Internal Use and for the Professor that is grading us.
+This document is not written for end-users
 
 ### 1.4 Document Terminology and Acronyms
-
-[This subsection provides the definitions of any terms, acronyms, and abbreviations required to properly interpret the Test Plan. Avoid listing items that are generally applicable to the project as a whole and that are already defined in the project's Glossary. Include a reference to the project's Glossary in the References section.]
 
 | Abbr | Abbreviation                        |
 |------|-------------------------------------|
@@ -100,74 +101,55 @@ This section should only be about three to five paragraphs in length.]
 | SRS  | Software Requirements Specification |
 | tbd  | to be determined                    |
 | UI   | User Interface                      |
-| VC   | Version Control                     |
-| TDD  | Test Driven Development             |
 
 ### 1.5  References
 
-[This subsection provides a list of the documents referenced elsewhere within the Test Plan. Identify each document by title, version (or report number if applicable), date, and publishing organization or original author. Avoid listing documents that are influential but not directly referenced. Specify the sources from which the "official versions" of the references can be obtained, such as intranet UNC names or document reference codes. This information may be provided by reference to an appendix or to another document.]
-
 | Title                                                                   | Date       | Publishing organization   |
 | ------------------------------------------------------------------------|:----------:| ------------------------- |
-| [Blog]()                                                                | Oct. 2018  |                  |
-| [GitHub Repository]()                                                   | Oct. 2018  |                  |
-| [UC1 XX](../use_cases/UC1_XX.md)                                        | Oct. 2018  |                  |
-| [UC2 XX](../use_cases/UC2_XX.md)                                        | Oct. 2018  |                  |
-| [UC3 XX](../use_cases/UC3_XX.md)                                        | Oct. 2018  |                  |
-| [Test Plan](./TestPlan.md)                                              | Apr. 2019  |                  |
-| [SRS](../SoftwareRequirementsSpecification.md)                          | Oct. 2018  |                  |
-| [SAD](../SoftwareArchitectureDocument.md)                               | Oct. 2018  |                  |
+| [Blog](https://md4fd.wordpress.com/blog/)                               | MAI. 2021  |      Mood4Food            |
+| [DOC GitHub Repository](https://github.com/JanPfenning/Mood4Food_Doc)   | MAI. 2021  |      Mood4Food            |
+| [API GitHub Repository](https://github.com/JanPfenning/Mood4Food_Api)   | MAI. 2021  |      Mood4Food            |
+| [APP GitHub Repository](https://github.com/JanPfenning/Mood4Food)       | MAI. 2021  |      Mood4Food            |
+| [UC AnalyzeWaterBalance](../UCS/UCS - AnalyzeWaterBalance.md)           | MAI. 2021  |      Mood4Food            |
+| [UC CrudLocalRecipe](../UCS/UCS - CrudLocalRecipe.md)                   | MAI. 2021  |      Mood4Food            |
+| [UC FavorizeRecipe](../UCS/UCS - FavorizeRecipe.md)                     | MAI. 2021  |      Mood4Food            |
+| [UC GetHealthDemandInformation](../UCS/UCS - GetHealthDemandInformation.md)| MAI. 2021  |      Mood4Food            |
+| [UC ManageSettings](../UCS/UCS - ManageSettings.md)                     | MAI. 2021  |      Mood4Food            |
+| [UC ManageWaterBalance](../UCS/UCS - ManageWaterBalance.md)             | MAI. 2021  |      Mood4Food            |
+| [UC RateIngredients](../UCS/UCS - RateIngredients.md)                   | MAI. 2021  |      Mood4Food            |
+| [UC ViewApiRecipe](../UCS/UCS - ViewApiRecipe.md)                       | MAI. 2021  |      Mood4Food            |
+| [UC ViewRecommendedRecipes](../UCS/UCS - ViewRecommendedRecipes.md)     | MAI. 2021  |      Mood4Food            |
+| [Test Plan](./Test_Plan.md)                                              | MAI. 2021  |      Mood4Food            |
+| [SRS](../Software_Requirements_Specification.md)                        | MAI. 2021  |      Mood4Food            |
+| [SAD](../Software_Architecture_Documentation.md)                        | MAI. 2021  |      Mood4Food            |
 
 ### 1.6 Document Structure
 
-[This subsection outlines what the rest of the Test Plan contains and gives an introduction to how the rest of the document is organized. This section may be eliminated if a Table of Contents is used.]
-
+See Table of Contents
 
 ## 2. Evaluation Mission and Test Motivation
 
-[Provide an overview of the mission and motivation for the testing that will be conducted in this iteration.]
-
 ### 2.1 Background
 
-[Provide a brief description of the background surrounding why the test effort defined by this Test Plan will be undertaken. Include information such as the key problem being solved, the major benefits of the solution, the planned architecture of the solution, and a brief history of the project. Where this information is defined in other documents, you can include references to those other more detailed documents if appropriate. This section should only be about three to five paragraphs in length.]
-
-Testing serves to ensure that the written code does what it is intended to do. It also prevents future code changes to break existing functionality unnoticed. In the context of integration it can also prevent broken software states to be merged into secured VC branches
+Testing serves to ensure that the written code does what it is intended to do. It also prevents future code changes to break existing functionality unnoticed. In the context of integration it can also prevent broken software states to be merged into secured VC branches.
+For the sake of this, we also decided to never directly push to the Development- or Masterbranch. The Masterbranch can only be updated by merging the Developmentbranch. The Developmentbranch can only be updated by merging a feature branch, and that merge can only be processed if all tests pass and another developer approves it. 
 
 ### 2.2 Evaluation Mission
 
-[Provide a brief statement that defines the mission for the evaluation effort in the current iteration. This statement might incorporate one or more concerns including:
+Our mission is to spot mistakes early on so they wont propagate while further developing. By doing this we make as sure as reasonable that users wont encouter strange behaviour.
 
-- find as many bugs as possible
-
-- find important problems
-
-- assess perceived quality risks
-
-- advise about perceived project risks
-
-- certify to a standard
-
-- verify a specification (requirements, design or claims)
-
-- advise about product quality
-
-- satisfy stakeholders
-
-- advise about testing
-
-- fulfill process mandates
-
-- and so forth
-
-Each mission provides a different context to the test effort and alters the way in which testing should be approached.]
 ### 2.3 Test Motivators
 
-[Provide an outline of the key elements that will motivate the testing effort in this iteration. Testing will be motivated by many things¾quality risks, technical risks, project risks, use cases, functional requirements, nonfunctional requirements, design elements, suspected failures or faults, change requests, and so forth.]
+The motivation for us to test the software is to make refactoring tasks as short as possible and to spot mistakes in the moment of pushing so they will not be found in a productive version. We want to keep the quality as high as posible while risks are as low as possible.
+
 ## 3. Target Test Items
 
-The listing below identifies those test items software, hardware, and supporting product elements ¾that have been identified as targets for testing. This list represents what items will be tested.
+The listing below identifies those test items software, hardware, and supporting product elements that have been identified as targets for testing. This list represents what items will be tested.
 
-[Provide a high level list of the major target test items. This list should include both items produced directly by the project development team and items that those products rely on. For example, basic processor hardware, peripheral devices, operating systems, third-party products or components, and so forth. Consider grouping the list by category and assigning relative importance to each motivator.]
+* API endpoints
+* Converter Classes
+* Repositories
+* Entities
 
 ## 4. Outline of Planned Tests
 
