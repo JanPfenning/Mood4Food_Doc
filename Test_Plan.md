@@ -537,5 +537,6 @@ We want to keep over [20]% code coverage. Files that are for visual presentation
 |-----------------------------------------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Unexpected failrues                     | Especially cover edge-cases and Calculation                   | Check are shown as failures at PR. No merge to productive system |
 ## 13. Management Process and Procedures
+When new functionality is implenmented that can be meaningfully tested, this should be done. First tests are written locally and when local tests pass the new functionality with the corresponing tests can be pushed. The new Tests will automatically run before the Pullrequest can be merged by another contributer. The PR-Issuer is never allowed to merge an own PR. (You may also want to visit the blogarticle about this topic: https://md4fd.wordpress.com/2021/05/02/week-2-5-tests/)
 
-n/a
+Additionally a Metrics-Check is executed with every new/updated PR. This shows quality of code. (To get more information about metrics visit the blog: https://md4fd.wordpress.com/2021/05/28/week-2-9-metrics/)
