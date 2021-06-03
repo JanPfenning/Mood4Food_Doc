@@ -23,16 +23,26 @@ tbt since there not implemented yet, see mockups until further infos are given h
 
 # 2. Flow of Events
 
-## 2.1 Basic Flow (Creation)
+## 2.1 Basic Flow
+Users Usually create a recipe and review it later. they may update it or delete it from the phone.
+
+## 2.1.1 Creation/Editing
 Here is the activity diagram for adding a new recipe.
 
 <iframe frameborder="0" style="width:100%;height:782px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=createrecipe.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2Fcreaterecipe.drawio"></iframe>
 </br>
+
 <p style="font-size:0.8rem">
 Use the following link to see the diagramm when the iframe doesn't work:</br>
 <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=createrecipe.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2Fcreaterecipe.drawio">Creating a Recipe Flow</a></p>
 
-## 2.2 Alternative Flows
+## 2.1.2 View
+User clicks on a Recipe-Card to see its Details
+
+## 2.1.3 Delete
+On detail view a User may delete the recipe. He will be asked whether he is sure to do it or not.
+
+## 2.2.1 Alternative Flows: Create
 User is free in number of ingredients, materials and steps, as he is in whether a picture for the meal is added or not.
 
 # 3. Special Requirements
@@ -45,8 +55,15 @@ The main preconditions for this use case are:
 
 # 5. Postconditions
 
-### 5.1 Save changes / Sync with server
+### 5.1.1 Save changes (create/update)
 The recipe is stored in the users local data
+The User is at the detail information screen of the new/edited recipe
+
+### 5.1.2 View
+n/a
+
+### 5.1.3 Delete
+The recipe is deleted and the user is navigated to Selection-Activity
 
 # 6. Function Points
 | CRUD Recipe                    | RET  | DET | FTR | Resulting Complexity | Count | RET                           | DET                                                                                                     | FTR    |
