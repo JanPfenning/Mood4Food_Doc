@@ -75,7 +75,7 @@ We devided the application into the 3 major layers: Activity(View), Repository(M
 Every catergory (like recipe, water, ...) gets it own package which then contains subpackages for each use-case. Each use-case contains the model, view and controller classes as further subpackages
 ##	<span id="Architecturally-Significant-Design-Packages">Architecturally Significant Design Packages</span>
 The abstract version of the MVC-Diagram can be found <a href="#toplevelmvc">here</a>
-
+The following image is out-dated by now. But android/kotlin does not provide any reasonable tool to automate the generation of this view.
 <img style="width:100%;height:585px;" src="./embedded-files/classdiagramm_mvc_marked.png"></img>
 <p>The reason why its light-background is that the background of the IDE is snipped out and thrown away! Do not think we use lightmode! For gods sake.</p>
 
