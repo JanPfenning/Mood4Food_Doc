@@ -9,7 +9,8 @@ This use case allows users to manage the waterbalance tracked by the application
 https://konrad400294.invisionapp.com/public/prototype/skghuj5co00lz1301ofl2uuaf
 
 ## 1.3 Screenshot
-tbt since there not implemented yet, see mockups until further infos are given here.
+<img src="../App-Screenshots/GetTodaysWater.PNG">
+<img src="../App-Screenshots/AddingWater.PNG">
 
 # 2. Flow of Events
 
@@ -19,7 +20,7 @@ Here is the activity diagram for adding water to the your waterbalance.
 <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Water_Management.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2FWater_Management.drawio">ManageWaterbalance Flow</a></p>
 
 ## 2.2 Alternative Flows
-n/a
+A user may also reset the Water of the current day, in case of failures in his input
 
 # 3. Special Requirements
 n/a
@@ -27,7 +28,7 @@ n/a
 # 4. Preconditions
 The main preconditions for this use case are:
 
- 1. The user has started the app and has navigated to the "Health" section.
+ 1. The user has started the app and has navigated to the "Water" section.
 
 # 5. Postconditions
 

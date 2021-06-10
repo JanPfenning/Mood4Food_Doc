@@ -8,12 +8,12 @@ This Usecase allows the user to mark (API and local) recipes as favorites and fi
 ## 1.2 Mockup
 n/a
 
-## 1.3 Screenshot (Creation)
-tbt since there not implemented yet, see mockups until further infos are given here.
+## 1.3 Screenshot
+<img src="..\App-Screenshots\Favorization.PNG">
 
 # 2. Flow of Events
 
-## 2.1 Basic Flow (Creation)
+## 2.1 Basic Flow
 Here is the activity diagram for Toggle Favorite-State and for viewing the favorized Recipes.
 
 <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=createrecipe.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2FfavorizeRecipe.drawio">Toggle Favorite State and view favorites</a></p>
