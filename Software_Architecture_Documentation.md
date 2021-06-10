@@ -95,6 +95,7 @@ The application is deployed as an APK with every build. This APK can be run on a
 We mainly use the shared-preferences of an phone. We safe a shared-preference file for each recipe, which contains the data about the title, ingredients, materials, description, linked picture and when it was eaten the last time. We also save a shared-preference file which contains the data of your water-balance each day.
 
 We decided to have an own backend providing recipes too. The recipes includes an image, ingredients and materials. See below:
+<img style="width:100%;height:585px;" src="./embedded-files/database.jpg"></img>
 
 #	Size and Performance 
 The application does not have to scale for many usecases. The only thing that can happen, is that a person saves houndreds of recipes but this is totally applicable with the App, since a shared-preference file is only ~4kb in size
