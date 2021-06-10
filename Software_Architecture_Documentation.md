@@ -31,6 +31,8 @@ Revision History
 9.	[Data View](#Data-View)
 10.	[Size and Performance](#Size-and-Performance)
 11.	[Quality](#Quality)
+12. [Patterns](#Patterns)
+13. [Metrics](#Metrics)
  
 Software Architecture Document 
 #	Introduction
@@ -103,3 +105,11 @@ The application does not have to scale for many usecases. The only thing that ca
 
 #	Quality 
 The software is easy to extend since we use a selfmade MVC architecture. It is totally reliable since the App is running on the phone without the need of an outside source, which also makes it totally save. The personal data is never leaving the phone unless the user exports his information for transfering it to a new phone or so.
+
+#   Patterns
+We used the Proxy-Pattern in our Backend. Check our Blogpost for further Information.
+https://md4fd.wordpress.com/2021/05/16/week-2-7-patterns/
+
+#   Metrics
+Find the information in our Blogpost:
+https://md4fd.wordpress.com/2021/05/28/week-2-9-metrics/
