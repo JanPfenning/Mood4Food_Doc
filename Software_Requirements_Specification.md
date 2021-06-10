@@ -66,10 +66,6 @@ We came to the conclusion that there were days when you didn't know what to eat 
 
 ### 2.2 Use Case Diagram
 
-<iframe frameborder="0" style="width:100%;height:988px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=UC#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2FUC"></iframe>
-</br>
-<p style="font-size:0.8rem">
-Use the following link to see the diagramm when the iframe doesn't work:</br>
 <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=UC#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2FUC.drawio">Overall Use-Case Diagram</a></p>
 
 - Green: Planned till end of december

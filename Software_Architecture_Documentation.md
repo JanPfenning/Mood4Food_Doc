@@ -56,20 +56,14 @@ To have an overview please see <a href="#toc">the table of contents</a>
 #	Architectural Representation 
 Our application is set up to use a MVC-architecture which looks as follows:
 <span id="toplevelmvc"></span>
-<iframe frameborder="0" style="width:100%;height:354px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=MVC_Architecture.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2FMVC_Architecture.drawio"></iframe>
-</br>
-<p style="font-size:0.8rem">
-Use the following link to see the diagramm when the iframe doesn't work:</br>
+
 <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=MVC_Architecture.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2FMVC_Architecture.drawio">MVC-Architecture</a></p>
 
 #	Architectural Goals and Constraints 
 We are not using a tool to implement the MVC-architecture. Since we want to learn about the architecture we prefer to implement it by hand, especially because the "innate Android version of MVC" is not really applicable to a real MVC concept. The seperation of code that implements logic and code that is used to display data is important for structure. By doing this one could just replace a View and you just have to reconnect the references which you cut off and the application is running.
 
 #	Use-Case View 
-<iframe frameborder="0" style="width:100%;height:988px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=UC#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2FUC"></iframe>
-</br>
-<p style="font-size:0.8rem">
-Use the following link to see the diagramm when the iframe doesn't work:</br>
+
 <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=UC#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2FUC.drawio">Overall Use-Case Diagram</a></p>
 
 ##	Use-Case Realizations
