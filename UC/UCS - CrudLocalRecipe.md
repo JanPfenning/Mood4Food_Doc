@@ -39,11 +39,6 @@ Users Usually create a recipe and review it later. they may update it or delete 
 ## 2.1.1 Creation
 Here is the activity diagram for adding a new recipe.
 
-<iframe frameborder="0" style="width:100%;height:782px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=createrecipe.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2Fcreaterecipe.drawio"></iframe>
-</br>
-
-<p style="font-size:0.8rem">
-Use the following link to see the diagramm when the iframe doesn't work:</br>
 <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=createrecipe.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FJanPfenning%2FMood4Food_Doc%2Fmain%2Fembedded-files%2Fcreaterecipe.drawio">Creating a Recipe Flow</a></p>
 
 ## 2.1.2 Read
